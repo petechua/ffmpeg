@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  ffmpeg:
+    build: .
+    volumes:
+      - ./tmp:/opt/tmp
